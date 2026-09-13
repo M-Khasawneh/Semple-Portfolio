@@ -1223,18 +1223,7 @@ footer h1 {
     color: #078dcc;
   }
 }
-.bgg {
-  background: radial-gradient(
-    circle at center,
-    #09acfe4b,
-    transparent 50%
-  ) !important;
-  position: absolute;
-  width: 200px;
-  height: 500px;
-  bottom: 10px;
-  left: -50px;
-}
+
 /* *******************************MEDIA QUERY************************************ */
 /* *******************************MEDIA QUERY************************************ */
 /* *******************************MEDIA QUERY************************************ */
