@@ -948,7 +948,7 @@ header img {
 .project-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: 300px;
   justify-content: center;
   gap: 30px;
 }
@@ -961,6 +961,7 @@ header img {
   border-radius: 20px;
   transform: scale(1);
   box-shadow: 0 1px 3px #09acfe7e;
+
   transition:
     box-shadow 0.3s ease,
     background-color 0.3s ease,
@@ -1054,6 +1055,9 @@ header img {
     text-align: center;
     margin-bottom: 10px;
     font-size: clamp(2rem, 4vw, 3rem);
+    span {
+      color: #09aefe;
+    }
   }
 }
 .contact-grid {
@@ -1198,7 +1202,7 @@ footer h1 {
   height: 80px;
   border: 1px solid #078dcc;
   border-radius: 50%;
-  background-color: #078ecc44;
+  background-color: #f9f9f9c7;
   display: flex;
   justify-content: center;
   align-items: center;
